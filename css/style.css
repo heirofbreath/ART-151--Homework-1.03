@@ -3,7 +3,7 @@
 
 body{
     /* background-color: black; */
-    background-image: url("/media/images/background_PD2.png");
+    background-image: url("../media/images/background_PD2.png");
     background-repeat: no-repeat;
     background-size: cover;
 
