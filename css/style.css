@@ -1,12 +1,9 @@
-@font-face{
-    font-family: PaydayFont;
-    src: url("/media/fonts/DINEngschrift-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=VT323&display=swap');
 
 
 body{
     background-color: black;
-    font-family: "PaydayFont";
+    font-family: "VT323", monospace;
 }
 
 .header{
@@ -14,26 +11,30 @@ body{
     padding: 10px;
     padding-left: 20px;
 
-    font-family: "PaydayFont";
+    font-family: "VT323", monospace;
     color: #0aa3ff;
 }
 
 .DallasInfo{
     display: flex;
     color: #0aa3ff;
-    border: 5px red dashed;
+    padding: 1%;
+}
+
+p{
+    padding: 10px;
+    border: 2px #0aa3ff solid;
 }
 
 .DallasLeft{
     text-align: center;
-    border: 5px green dotted;
     width: 50%;
+    list-style-type: none;
 }
 
 .DallasTables{
     display: flex;
     text-align: center;
-    border: 5px red dotted;
 }
 
 .DallasTables table{
@@ -45,19 +46,21 @@ body{
     border: 1px #0aa3ff solid;
 }
 
-.DallasRight{
-    border: 5px green dotted;
-    width: 50%;
+.DallasLists{
+    display: flex;
+    text-align: center;
+}
 
+.listLeft{
+    width: 50%;
+}
+
+.DallasRight{
+    width: 50%;
     text-align: center;
 }
 
 .DallasRight img{
-    margin-right: auto;
-    margin-left: auto;
-}
-
-img{
-    border: 10px blue solid;
+    width: 500px;
 }
 
