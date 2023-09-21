@@ -2,34 +2,42 @@
 
 
 body{
-    background-color: black;
-    font-family: "VT323", monospace;
-}
-
-.header{
-    border: 5px blue solid;
-    padding: 10px;
-    padding-left: 20px;
+    /* background-color: black; */
+    background-image: url("/media/images/background_PD2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
     font-family: "VT323", monospace;
-    color: #0aa3ff;
+
+    margin: 0;
+    padding: 0;
 }
 
 .DallasInfo{
+    margin-top: 5%;
+    margin-bottom: auto;
+
     display: flex;
     color: #0aa3ff;
-    padding: 1%;
+    justify-content: center;
 }
 
 p{
     padding: 10px;
     border: 2px #0aa3ff solid;
+    background-color: black;
 }
 
 .DallasLeft{
-    text-align: center;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+
     list-style-type: none;
+    text-align: center;
+
+    margin: 2%;
+    width: 50%;
+    
 }
 
 .DallasTables{
@@ -40,6 +48,7 @@ p{
 .DallasTables table{
     margin: 10px;
     border: 1px #0aa3ff solid;
+    background-color: black;
 }
 
 .DallasTables td{
@@ -47,20 +56,54 @@ p{
 }
 
 .DallasLists{
+    border: 2px #0aa3ff solid;
+    background-color: black;
     display: flex;
+
     text-align: center;
 }
 
 .listLeft{
+    border: 1px #0aa3ff solid;
     width: 50%;
+    margin-right: auto;
+}
+
+.listRight{
+    border: 1px #0aa3ff solid;
+    width: 50%;
+    margin-right: auto;
+}
+
+.DallasLists ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .DallasRight{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
     text-align: center;
+    margin: 2%;
+    width: 50%;
 }
 
-.DallasRight img{
+.DallasImg{
+    border: 1px #0aa3ff solid;
+    background-color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    min-width: fit-content;
+    max-width: 75%;
+}
+
+.DallasImg img{
     width: 500px;
 }
 
