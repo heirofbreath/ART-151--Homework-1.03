@@ -1,0 +1,63 @@
+@font-face{
+    font-family: PaydayFont;
+    src: url("/media/fonts/DINEngschrift-Regular.ttf");
+}
+
+
+body{
+    background-color: black;
+    font-family: "PaydayFont";
+}
+
+.header{
+    border: 5px blue solid;
+    padding: 10px;
+    padding-left: 20px;
+
+    font-family: "PaydayFont";
+    color: #0aa3ff;
+}
+
+.DallasInfo{
+    display: flex;
+    color: #0aa3ff;
+    border: 5px red dashed;
+}
+
+.DallasLeft{
+    text-align: center;
+    border: 5px green dotted;
+    width: 50%;
+}
+
+.DallasTables{
+    display: flex;
+    text-align: center;
+    border: 5px red dotted;
+}
+
+.DallasTables table{
+    margin: 10px;
+    border: 1px #0aa3ff solid;
+}
+
+.DallasTables td{
+    border: 1px #0aa3ff solid;
+}
+
+.DallasRight{
+    border: 5px green dotted;
+    width: 50%;
+
+    text-align: center;
+}
+
+.DallasRight img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    border: 10px blue solid;
+}
+
